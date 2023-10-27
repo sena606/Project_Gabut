@@ -1,3 +1,11 @@
+.container h1 {
+  font-family: "Chivo", sans-serif;
+}
+
+.container {
+  color: #d597ff;
+}
+
 body {
   margin: 0;
   padding: 0;
