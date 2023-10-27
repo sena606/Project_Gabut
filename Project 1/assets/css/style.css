@@ -2,15 +2,19 @@
   font-family: "Chivo", sans-serif;
 }
 
-.container {
-  color: #d597ff;
+.container-body {
+  background-color: rgba(9, 9, 9, 0.535);
+  color: #bf6cff;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(94, 91, 88);
+  background-image: url(../img/roselia3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
