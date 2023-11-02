@@ -1,0 +1,24 @@
+.music-player {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.music-player audio {
+  width: 100%;
+}
+
+.music-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.music-controls button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}

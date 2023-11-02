@@ -1,10 +1,48 @@
+.cover-1 img {
+  width: 300px;
+  height: 300px;
+}
+
+.cover-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.outline-rainbow {
+  width: 75%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
 .container h1 {
   font-family: "Chivo", sans-serif;
 }
 
+.container-body-lyric {
+  text-align: center;
+}
+
+.container-body2 {
+  background-color: rgba(9, 9, 9, 0.678);
+  color: #ffffff;
+  text-align: center;
+}
+
 .container-body {
-  background-color: rgba(9, 9, 9, 0.535);
-  color: #bf6cff;
+  background-color: rgba(9, 9, 9, 0.678);
+  color: #ffffff;
+  text-align: left;
 }
 
 body {
